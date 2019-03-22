@@ -53,7 +53,7 @@
     height: 13px;
     width: 50px;
     margin-right: 75px;
-    margin-top: 50px;
+    margin-top: 49px;
 }
 .firstCenterDiv{
     z-index: 2;
@@ -94,4 +94,37 @@
     width: 1280px;
     margin-left:200px;
     
+}
+.checkBoxes{
+    z-index: 3;
+
+    
+   /* border: 2px solid blue;*/
+    height: 143px;
+    width: 1280px;
+    /*margin-left:200px;*/
+    
+}
+.checkBox{
+    color: #aa9b77;
+    float: left;
+    margin-left: 150px;
+}
+.checkBoxLB{
+    color: #aa9b77;
+    float: left;
+   
+}
+
+#menCB{
+    color: #aa9b77; 
+    float: left;
+}
+#womenCB{
+    color: #aa9b77;
+    float: left;
+}
+#childrenCB{
+    color: #aa9b77;
+    float: left;
 }
