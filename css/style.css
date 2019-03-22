@@ -84,3 +84,14 @@
     margin-left: 615px;
     margin-top: 290px;
 }
+
+.second{
+    z-index: 3;
+
+    background-image: url(../images/second/Rettangolo.png);
+   /* border: 2px solid blue;*/
+    height: 143px;
+    width: 1280px;
+    margin-left:200px;
+    
+}
