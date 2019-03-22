@@ -18,13 +18,40 @@
 .leftDiv{
     z-index: 2;
     float: left;
-    border: 2px solid beige;
+    /*border: 2px solid beige;*/
     background-image: url(../images/home/Livello.png);
+    height: 40px;
+    width: 53px;
+    margin-top:20px;
+    margin-left: 30px;
 }
 .rightDiv{
     z-index: 2;
     float: right;
     background-image: url(../images/home/shoppingcart.png);
-    border: 2px solid blue;
-
+   /* border: 2px solid blue;*/
+    height: 20px;
+    width: 24px;
+    margin-right: 50px;
+    margin-top: 43px;
+}
+.twoRightDiv{
+    z-index: 2;
+    float: right;
+    background-image: url(../images/home/Products.png);
+   /* border: 2px solid blue;*/
+    height: 13px;
+    width: 77px;
+    margin-right: 75px;
+    margin-top: 50px;
+}
+.thirdRightDiv{
+    z-index: 2;
+    float: right;
+    background-image: url(../images/home/Home1.png);
+   /* border: 2px solid blue;*/
+    height: 13px;
+    width: 50px;
+    margin-right: 75px;
+    margin-top: 50px;
 }
