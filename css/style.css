@@ -109,22 +109,24 @@
     color: #aa9b77;
     float: left;
     margin-left: 150px;
+    margin-top:85px;
 }
 .checkBoxLB{
     color: #aa9b77;
     float: left;
-   
+    margin-top:82px;
 }
 
-#menCB{
+#menCB #womenCB #childrenCB{
     color: #aa9b77; 
     float: left;
 }
-#womenCB{
-    color: #aa9b77;
-    float: left;
-}
-#childrenCB{
-    color: #aa9b77;
-    float: left;
+.seeALL{
+    float: right;
+    margin-right: 70px;
+    margin-top: 60px;
+    text-decoration: none;
+    padding: 20px;
+    background: #aa9b77;
+    color:#ffffff;
 }
