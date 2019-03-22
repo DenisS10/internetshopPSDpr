@@ -8,7 +8,7 @@
     margin-left: 200px;
     /*align: center;*/
 }
-.home{
+.home{                      /*Все названия относятся к home(До следующего слоя)*/
     z-index: 2;
     
 }
@@ -54,4 +54,33 @@
     width: 50px;
     margin-right: 75px;
     margin-top: 50px;
+}
+.firstCenterDiv{
+    z-index: 2;
+
+    background-image: url(../images/home/OurClosing.png);
+   /* border: 2px solid blue;*/
+    height: 54px;
+    width: 798px;
+    margin-left: 240px;
+    margin-top: 300px;
+}.secondCenterDiv{
+    z-index: 2;
+
+    background-image: url(../images/home/Loremipsum.png);
+   /* border: 2px solid blue;*/
+    height: 67px;
+    width: 586px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.footCenterDiv{
+    z-index: 3;
+
+    background-image: url(../images/home/chevronDown.png);
+   /* border: 2px solid blue;*/
+    height: 22px;
+    width: 34px;
+    margin-left: 615px;
+    margin-top: 290px;
 }
