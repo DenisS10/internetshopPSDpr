@@ -12,3 +12,19 @@
     z-index: 2;
     
 }
+.homeDiv{
+    border: 2px solid beige;
+}
+.leftDiv{
+    z-index: 2;
+    float: left;
+    border: 2px solid beige;
+    background-image: url(../images/home/Livello.png);
+}
+.rightDiv{
+    z-index: 2;
+    float: right;
+    background-image: url(../images/home/shoppingcart.png);
+    border: 2px solid blue;
+
+}
