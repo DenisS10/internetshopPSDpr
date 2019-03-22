@@ -85,7 +85,7 @@
     margin-top: 290px;
 }
 
-.second{
+.second{/*Второй слой*/
     z-index: 3;
 
     background-image: url(../images/second/Rettangolo.png);
@@ -129,4 +129,7 @@
     padding: 20px;
     background: #aa9b77;
     color:#ffffff;
+}
+.third{/*Третий слой*/
+
 }
