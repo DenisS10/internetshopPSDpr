@@ -1,0 +1,14 @@
+.bg{
+    border: 1px solid black;
+    background-image: url(../images/bg/bg.png);
+    background-color: antiquewhite;
+    z-index: 1;
+    height: 780px;
+    width: 1280px;
+    margin-left: 200px;
+    /*align: center;*/
+}
+.home{
+    z-index: 2;
+    
+}
