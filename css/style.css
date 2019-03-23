@@ -95,7 +95,7 @@
     margin-left:200px;
     
 }
-.checkBoxes{
+.navibar{
     z-index: 3;
 
     
@@ -115,11 +115,22 @@
     color: #aa9b77;
     float: left;
     margin-top:82px;
+    cursor: pointer;
 }
 
 #menCB #womenCB #childrenCB{
     color: #aa9b77; 
     float: left;
+    
+}
+#menCB:hover {
+    cursor: pointer;
+}
+#womenCB:hover{
+    cursor: pointer;
+}
+#childrenCB:hover{
+    cursor: pointer;
 }
 .seeALL{
     float: right;
