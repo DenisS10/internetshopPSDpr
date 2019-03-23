@@ -156,19 +156,43 @@ margin-left: 200px;
 .divThrirdBody{
     margin: 20px;
 
+    color: #aa9b77;
     
 }
 #divThr:hover{
     border: 2px solid #aa9b77;
 }
-
+#divSecond:hover{
+    border: 2px solid #aa9b77;
+}#divFirst:hover{
+    border: 2px solid #aa9b77;
+}
 #divThr{
     height: 378px;
     width: 320px;
     margin-right: 165px;
-    
+
+    background-color: #f5f6f7;
+    float: right;
+    margin-top: 70px;
+
+}
+#divSecond{
+    height: 378px;
+    width: 320px;
+    margin-right: 100px;
+    margin-top: 70px;
     background-color: #f5f6f7;
     float: right;
     
+}
+#divFirst{
+    height: 378px;
+    width: 320px;
+    margin-right: 100px;
+    margin-top: 70px;
+    background-color: #f5f6f7;
+    float: right;
 
+    
 }
