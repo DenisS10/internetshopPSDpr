@@ -144,3 +144,33 @@
 .third{/*Третий слой*/
 
 }
+.menTable{
+
+width: 100%;
+margin-left: 200px;
+}
+.tableHeader{
+    float:center;
+    margin-left: 200px;
+}
+.tableBody{
+    width:33%;
+    background-image: url(../images/third/RettangoloTableMen.png);
+    border: 3px dashed red;
+    margin-left: 200px;
+}
+.tableBody:hover{
+    border: 2px solid #aa9b77;
+}
+.line{
+    border: none; /* Убираем границу для браузера Firefox */
+    color:#cccccc; /* Цвет линии для остальных браузеров */
+    background-color:#cccccc; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    float: right;
+    width: 100%;
+    margin-top:8px;
+}
+#colThr{
+    background-image: url(../images/third/RettangoloTableMen.png);  
+}
