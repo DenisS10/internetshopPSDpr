@@ -11,8 +11,7 @@ body{
     background-color: antiquewhite;
     z-index: 1;
     height: 780px;
-    width: 1280px;
-    margin-left: 200px;
+    width: 1280px;   margin-left: 200px;
     /*align: center;*/
 }
 .home{                      /*Все названия относятся к home(До следующего слоя)*/
@@ -218,7 +217,7 @@ body{
     z-index: 5;
 
     margin-bottom: 0px;
-    /* margin-top: 30px; */
+    margin-top: 58px;
     float: left;
     /* margin-right: 230px; */
 
@@ -231,6 +230,7 @@ body{
     /* margin-bottom:60px; */
     float: right;
     z-index: 5;
+    margin-top: 58px;
 }
 #thirdDivVolume{
     /* margin-bottom:10px;   */
@@ -247,7 +247,7 @@ body{
     
     margin-left: 10px;
     float: left;
-    
+    margin-top: 37px;
 }
 #secondDivPrice{
     color:#424242;
@@ -256,6 +256,8 @@ body{
     margin-bottom:60px; */
     float: right;
     z-index: 5;
+
+    margin-top: 37px;
 }
 #secondDivSize{
     /* margin-bottom:10px;   */
