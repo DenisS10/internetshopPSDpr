@@ -152,19 +152,22 @@ body{
 
 }
 .menTable{
-
-width: 100%;
-margin-left: 200px;
+    color:#aa9b77;
+    width: 100%;
+    margin-left: 200px;
 }
 .tableHeader{
     float:center;
     margin-left: 200px;
 }
-.divThrirdBody{
+.divThirdBody{
     margin: 20px;
-
+    
     color: #aa9b77;
     
+}
+#menBodyText{
+    float: left;
 }
 #divThr:hover{
     border: 2px solid #aa9b77;
@@ -180,7 +183,7 @@ margin-left: 200px;
     margin-right: 230px;
 
     background-color: #f5f6f7;
-    float: right;
+    float: left;
     margin-top: 70px;
     /* background-image: url(../images/third/backpackI.png); */
     
@@ -191,7 +194,7 @@ margin-left: 200px;
     margin-right: 100px;
     margin-top: 70px;
     background-color: #f5f6f7;
-    float: right;
+    float: left;
     
 }
 #divFirst{
@@ -200,7 +203,7 @@ margin-left: 200px;
     margin-right: 100px;
     margin-top: 70px;
     background-color: #f5f6f7;
-    float: right;
+    float: left;
     background-image: url();
 
     
@@ -308,8 +311,23 @@ margin-left: 200px;
     background:#535253;
     
 }
-#firstDivThirdPict{/*Третья и вторая картинка*/
+#firstDivThirdPict{/*первая картинка*/
     margin-left: 50px;
     margin-top: 33px; 
    
 }
+/*Women block(4 слой)*/
+.fourth{/*Третий слой*/
+
+}
+.divFourthBody{
+    margin: 20px;
+    
+    color: #aa9b77;
+    
+}
+.womenTable{
+
+    width: 100%;
+    margin-left: 200px;
+    }
