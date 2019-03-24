@@ -450,5 +450,33 @@ body{
 
     
 }
-
+/*.aboutText{
+    color:#424242;
+    margin-left: 0px;
+    font-size: 120%;
+    margin-top:0px; 
+    z-index: 10;
+}*/
+.aboutUsDiv{
+    /* color:#837659; */
+    margin-left: 300px;
+    font-size: 150%;
+    margin-top:50px; 
+}
 /*Шестой слой*/
+.backgroundFooter{
+    height: 72px;
+    width: 1280px;
+    margin-left: 200px;
+    /* margin-top: 70px; */
+    background-color: #535253;
+    float: left;/*424242*/
+}
+.endBackground{
+    height: 352px;
+    width: 1280px;
+    margin-left: 200px;
+    /* margin-top: 70px; */
+    background-color: #424242;
+    float: left;
+}
