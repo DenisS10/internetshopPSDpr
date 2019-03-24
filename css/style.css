@@ -472,6 +472,17 @@ body{
     background-color: #535253;
     float: left;/*424242*/
 }
+#Ecom{
+    margin-left:15px;
+    margin-top: 20px; 
+    color:#ffffff;
+    float: left;
+}
+#twitterPa{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
 .endBackground{
     height: 352px;
     width: 1280px;
