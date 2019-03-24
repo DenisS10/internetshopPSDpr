@@ -166,7 +166,7 @@ body{
     
 }
 #menBodyText{
-    /* margin-top:50px; */
+     margin-top:20px; 
     float: left;
 }
 #divThr:hover{
