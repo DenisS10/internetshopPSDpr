@@ -167,6 +167,7 @@ body{
     
 }
 #menBodyText{
+    /* margin-top:50px; */
     float: left;
 }
 #divThr:hover{
@@ -506,4 +507,12 @@ body{
     margin-left: 70px;
     font-size: 80%;
     text-transform: uppercase;
+}
+.rightFoot{
+    float: right;
+    margin-right: 10px;
+}
+#designBy{
+    font-size:120%;
+    margin-right: 10px;
 }
