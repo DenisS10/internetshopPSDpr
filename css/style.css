@@ -16,7 +16,7 @@ body{
 }
 .home{                      /*Все названия относятся к home(До следующего слоя)*/
     z-index: 2;
-    
+    /*f2f4f7*/
 }
 .homeDiv{
     border: 2px solid beige;
@@ -34,7 +34,7 @@ body{
 .rightDiv{
     z-index: 2;
     float: right;
-    background-image: url(../images/home/shoppingcart.png);
+    /*background-image: url(../images/home/shoppingcart.png);
    /* border: 2px solid blue;*/
     height: 20px;
     width: 24px;
@@ -44,7 +44,7 @@ body{
 .twoRightDiv{
     z-index: 2;
     float: right;
-    background-image: url(../images/home/Products.png);
+   /* background-image: url(../images/home/Products.png);
    /* border: 2px solid blue;*/
     height: 13px;
     width: 77px;
@@ -54,7 +54,7 @@ body{
 .thirdRightDiv{
     z-index: 2;
     float: right;
-    background-image: url(../images/home/Home1.png);
+ /*   background-image: url(../images/home/Home1.png);
    /* border: 2px solid blue;*/
     height: 13px;
     width: 50px;
@@ -65,7 +65,7 @@ body{
     z-index: 2;
 
     background-image: url(../images/home/OurClosing.png);
-   /* border: 2px solid blue;*/
+    /*border: 2px solid blue;*/
     height: 54px;
     width: 798px;
     margin-left: 240px;
@@ -83,8 +83,8 @@ body{
 .footCenterDiv{
     z-index: 3;
 
-    background-image: url(../images/home/chevronDown.png);
-   /* border: 2px solid blue;*/
+    /*background-image: url(../images/home/chevronDown.png);
+    border: 2px solid blue;*/
     height: 22px;
     width: 34px;
     margin-left: 615px;
@@ -398,7 +398,11 @@ body{
     float: left;
     color:#424242;
 }
-
+/*.womenShop{
+    border-top: 2px solid #cccccc;
+    margin-left: 200px;
+    float: left;
+}*/
 
 /*Первая картинка третьего блока*/
 #wo_firstDivTS{
@@ -440,6 +444,7 @@ body{
 }
 #womenBodyText{
     margin-top: 500px;
+    /*float: right;*/
 }
 /*Пятый Слой*/
 .backgroundFifthy{
