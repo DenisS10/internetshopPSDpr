@@ -6,7 +6,7 @@ body{
       
 }
 .bg{
-    border: 1px solid black;
+    border: 1px solid white;
     background-image: url(../images/bg/bg.png);
     background-color: antiquewhite;
     z-index: 1;
@@ -24,8 +24,8 @@ body{
 .leftDiv{
     z-index: 2;
     float: left;
-    /*border: 2px solid beige;*/
-    background-image: url(../images/home/Livello.png);
+    /*border: 2px solid beige;
+    background-image: url(../images/home/Livello.png);*/
     height: 40px;
     width: 53px;
     margin-top:20px;
