@@ -3,23 +3,28 @@
  <head>
   <meta charset="utf-8">
   <title>Internet shop</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery-3.3.1.js"></script> 
+  <script src="js/custom.js"></script> 
  </head>
  <body>
 
   <div class="bg" >
       
     <div class="home">
-        <div class="leftDiv"></div>
-        <div class="rightDiv"></div>
-        <div class="twoRightDiv"></div>
-        <div class="thirdRightDiv"></div>
+        <div class="leftDiv"><a href="#"><img src="./images/home/Livello.png" />
+        </a></div>
+        <div class="rightDiv"><a href="#"><img src="./images/home/shoppingcart.png"/></a></div>
+        <div class="twoRightDiv"><a href="#"><img src="./images/home/Products.png"/></a></div>
+        <div class="thirdRightDiv"><a href="#"><img src="./images/home/Home1.png"/></a></div>
         
     </div>     
     <div class="firstCenterDiv"></div> 
     <div class="secondCenterDiv"></div> 
-    <div class="footCenterDiv"></div> 
+    <div class="footCenterDiv"><a href="#"><img src="./images/home/chevronDown.png"/></a></div> 
 
 
     
@@ -36,17 +41,99 @@
         <a class="seeALL" href="#">SEE ALL PRODUCTS</a>
     </div>
   </div>
+  <!--Men block-->
 <div class = "third">
   <div class = "menShop">
     <div class="menTable" > <!--<div class="tableHeader">MEN </div>-->
-      <div class ="divThrirdBody">MEN
-        <div id="divThr"></div>
-        <div id="divSecond"></div>
-        <div id="divFirst"></div>
+      <div class ="divThrirdBody"><div id="menBodyText">MEN</div>
+        <div id="divFirst"> 
+          <p id="firstDivSize">SIZE &#8897;</p>
+          <p id="circle" class="background3rdCircle"></p>
+          <p id="circle" class="background2rdCircle"></p>
+          <p id="circle" class="background1rdCircle"></p>
+          <p><img id="firstDivThirdPict" src="./images/third/T-Shirtpct.png"></p>
+          <p id="firstDivTS">T-SHIRT</p>
+          <p id="firstDivPrice">5,00€</p>
+          
+        </div>
+      
+
+        <div id="divSecond">
+        <p id="secondDivSize">SIZE &#8897;</p>
+        <p><img id="thirdDivThirdPict" src="./images/third/pantsFor.png"></p>
+       
+        
+        <p id="secondDivPan">PANTS FORCLAZ</p>
+        <p id="secondDivPrice">30,00€</p>
+        </div>
+        <div id="divThr">
+          <p id="thirdDivVolume">10LITRI</p>
+          <p><img id="thirdDivThirdPict" src="./images/third/backpackI.png"></p>
+         
+          
+          <p id="thirdDivBP">BACKBACK</p>
+          <p id="thirdDivPrice">60,00€</p>
+        </div>
       </div>
+    </div>
+  </div>
+</div>
+<!--Women block-->
+ <div class = "fourth">
+  <div class = "womenShop">
+    <div class="womenTable" > 
+      <div class ="divFourthBody"><div id="womenBodyText">WOMEN</div>
+        <div id="divFirst"> 
+          <p id="wo_firstDivSize">SIZE &#8897;</p>
+        
+
+          <p><img id="wo_firstDivThirdPict" src="./images/fourth/GiacketWomen.png"></p>
+          <p id="wo_firstDivTS">GIACKET</p>
+          <p id="wo_firstDivPrice">60,00€</p>
+          
+        </div>
+      
+
+        <div id="divSecond">
+        <p id="wo_secondDivSize">SIZE &#8897;</p>
+        <p><img id="wo_DivSecondPict" src="./images/fourth/TrekkingShoesWomen.png"></p>
+       
+        
+        <p id="wo_secondDivPan">TREKKING SHOES</p>
+        <p id="wo_secondDivPrice">80,00€</p>
+        </div>
+        <div id="divThr">
+          <p id="wo_thirdDivVolume">SIZE &#8897;</p>
+          <p id="circle" class="wo_background1rdCircle"></p>
+          <p id="circle" class="wo_background2rdCircle"></p>
+          <p><img id="wo_DivThirdPict" src="./images/fourth/T-SHIRTWomen.png"></p>   
+          <p id="wo_thirdDivTS">T-SHIRT</p>
+          <p id="wo_thirdDivPrice">20,00€</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<div class="fifthy">
+  <div class="backgroundFifthy">
+    <div class="aboutUsDiv "><p><img id="aboutUs" src="./images/fifthy/Text.png"></p>
+    <!-- <p class="aboutText" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> do eiusmod tempor incididunt ut labore et magna<br> aligua. Ut enim ad minim veniam,quis nostrud<br> exercitation</p> -->
+  </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="backgroundFooter">
+    <!--<p id="Ecom"><img id="twitterPa" src="./images/footer/fa-twitter.png" href="https://twitter.com"> &nbsp;&nbsp;“ E-commerce psd theme available ”</p>-->
+     <div><img id="twitterPa" src="./images/footer/fa-twitter.png" ></div><div id="Ecom"> “ E-commerce psd theme available ”</div> 
+  </div>
+  <div class="endBackground">
+    
+    <a class="hrefFoot" id="trekkingFoot" href="#">TREKKING</a>
+    <p class="hrefFoot" id="pFoot">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis<br>nostrud exercitation ullamco laboris nisi ut aliquip<br> ex ea commodo consequat</p>
+    <div class="rightFoot"><a class="hrefFoot"  href="#">CREDITS</a>&nbsp;<a class="hrefFoot"  href="#">PRIVACY</a>&nbsp;<a class="hrefFoot"  href="#">ABOUT</a>&nbsp;<a class="hrefFoot"  href="#">CONTACT</a>
+    <p class="hrefFoot" id="designBy" align="right"><b>Design by gianluca cosetta</b></p>
     </div>
   </div>
 </div>
  </body>
 </html>
-<!-- adsasd -->
